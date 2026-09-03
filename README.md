@@ -18,13 +18,6 @@ El objetivo principal fue evaluar y zonificar la susceptibilidad a eventos de re
 
 ---
 
-## Estructura del Repositorio
-* `/informes/`: Contiene el Informe de Práctica Profesional y el informe técnico detallado elaborado para EG-Sciences SpA.
-* `/mapas/`: Salidas cartográficas finales en alta resolución (Mapas de susceptibilidad, pendientes, geología, usos de suelo y orientación de laderas para ambas comunas).
-* `/datos/`: Parámetros de las matrices de Saaty, ponderaciones y tablas de rangos de susceptibilidad aplicadas.
-
----
-
 ## Principales Resultados
 * Generación de mapas de susceptibilidad, clasificando el territorio desde niveles muy bajos hasta muy altos.
 * Identificación de que las áreas con mayor susceptibilidad se concentran en sectores de cerros con pendientes pronunciadas y escasa cobertura vegetal, las cuales colindan con zonas de rápido crecimiento urbano.
@@ -38,4 +31,4 @@ El objetivo principal fue evaluar y zonificar la susceptibilidad a eventos de re
 * Organización: EG-Sciences SpA.
 * Periodo: 2023.
 
-* `/informes/`: Contiene el documento completo del Informe de Práctica Profesional en formato PDF y el informe técnico detallado elaborado para EG-Sciences SpA.
+El informe principal se encuentra adjuntado en este repositorio con el nombre de "Análisis de Susceptibilidad Remoción en Masa"
