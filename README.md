@@ -1,29 +1,41 @@
-# analisis-susceptibilidad-quilicura-huechuraba
-Análisis de susceptibilidad de eventos de remoción en masa en Quilicura y Huechuraba 
+# Análisis de Susceptibilidad de Remoción en Masa en las Comunas de Huechuraba y Quilicura, Región Metropolitana, Chile
 
-# 🌍 Análisis de Susceptibilidad de Remoción en Masa: Quilicura y Huechuraba
+## Descripción del Proyecto
+Este repositorio contiene la documentación, metodología y resultados desarrollados en el marco de la Práctica Profesional de la carrera de Geografía de la Universidad de Concepción. El trabajo se llevó a cabo en la consultora EG-Sciences SpA entre los meses de abril y junio de 2023, bajo la supervisión del equipo de riesgos geológicos.
 
-## 📌 Resumen del Proyecto
-Este repositorio documenta el informe técnico de geomática y ordenamiento territorial desarrollado individualmente por **Valeria Soto Bastías**, enfocado en la evaluación de la susceptibilidad ante movimientos de remoción en masa (REM) e inundaciones en las comunas de **Quilicura y Huechuraba** (Región Metropolitana, Chile).
-
----
-
-## 🛠️ Metodología y Herramientas SIG
-* **Software utilizado:** ArcGIS Pro 3.1.
-* **Modelo Multicriterio:** Aplicación del **Proceso de Jerarquía Analítica (AHP) de Thomas L. Saaty** para la ponderación y jerarquización de variables.
-* **Factores Condicionantes Analizados:**
-  1. **Geología:** Clasificada según ambiente de sedimentación (desde sedimentario continental hasta plutónico hipabisal).
-  2. **Pendientes y Orientación de Laderas:** Extraídas a partir de un DEM Alos Palsar (resolución de 12.5 m).
-  3. **Uso de Suelos:** Integrado desde el catastro de IDE Chile (diferenciando áreas urbanas, agrícolas y desprovistas de vegetación).
-* **Integración final:** Uso de la herramienta *Weighted Overlay* en SIG para la obtención de mapas zonificados de susceptibilidad.
+El objetivo principal fue evaluar y zonificar la susceptibilidad a eventos de remoción en masa e inundaciones en las comunas urbanas y periurbanas de Huechuraba y Quilicura, utilizando herramientas de Sistemas de Información Geográfica y modelos de decisión multicriterio.
 
 ---
 
-## 📊 Principales Resultados
-* Generación de cartografía temática detallada (Láminas 01 a la 11) que identifican sectores críticos con niveles de susceptibilidad alta y muy alta vinculados a cerros isla y laderas con escasa cobertura vegetal.
-* Identificación de zonas de expansión urbana vulnerable (como sectores cercanos a La Pincoya y vías de comunicación) para la toma de decisiones en gestión de riesgo y planes de mitigación.
+## Metodología y Tecnologías Utilizadas
+* Software SIG: ArcGIS Pro.
+* Modelo Multicriterio: Método de Análisis Jerárquico de Saaty para la ponderación de variables condicionantes.
+* Factores Condicionantes Analizados:
+  1. Pendiente y Orientación de laderas.
+  2. Geología, enfocado en ambientes de sedimentación.
+  3. Uso de suelos y vegetación.
+* Metodología de Zonificación: Enfoque adaptado a la realidad territorial chilena mediante superposición ponderada.
 
 ---
 
-## 📄 Documento Completo
-Puedes revisar el informe técnico completo en formato PDF en este repositorio.
+## Estructura del Repositorio
+* `/informes/`: Contiene el Informe de Práctica Profesional y el informe técnico detallado elaborado para EG-Sciences SpA.
+* `/mapas/`: Salidas cartográficas finales en alta resolución (Mapas de susceptibilidad, pendientes, geología, usos de suelo y orientación de laderas para ambas comunas).
+* `/datos/`: Parámetros de las matrices de Saaty, ponderaciones y tablas de rangos de susceptibilidad aplicadas.
+
+---
+
+## Principales Resultados
+* Generación de mapas de susceptibilidad, clasificando el territorio desde niveles muy bajos hasta muy altos.
+* Identificación de que las áreas con mayor susceptibilidad se concentran en sectores de cerros con pendientes pronunciadas y escasa cobertura vegetal, las cuales colindan con zonas de rápido crecimiento urbano.
+* Propuesta de recomendaciones orientadas al ordenamiento territorial, revisión de sistemas de drenaje y restricción de construcciones en laderas altamente susceptibles.
+
+---
+
+## Autoría
+* Autora: Valeria Scarlet Soto Bastías (Coautora en informes técnicos: Javiera Alarcón Lermanda).
+* Carrera: Geografía, Departamento de Geografía, Universidad de Concepción.
+* Organización: EG-Sciences SpA.
+* Periodo: 2023.
+
+* `/informes/`: Contiene el documento completo del Informe de Práctica Profesional en formato PDF y el informe técnico detallado elaborado para EG-Sciences SpA.
